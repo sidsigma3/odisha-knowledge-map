@@ -1,0 +1,478 @@
+{
+  "id": "industry",
+  "label": "Industry & Power",
+  "color": "#f59e0b",
+  "detailFields": [
+    { "key": "type", "label": "Type", "format": "text" },
+    { "key": "operator", "label": "Operator", "format": "text" },
+    { "key": "capacity", "label": "Capacity / Output", "format": "text" },
+    { "key": "established", "label": "Established", "format": "text" },
+    { "key": "districts", "label": "District(s)", "format": "list" },
+    { "key": "fuel", "label": "Fuel / Source", "format": "text" },
+    { "key": "river", "label": "River", "format": "text" },
+    { "key": "products", "label": "Products / Sectors", "format": "list" },
+    { "key": "notes", "label": "Notes", "format": "text" }
+  ],
+  "locations": [
+    {
+      "id": "rourkela-steel",
+      "name": "Rourkela Steel Plant",
+      "category": "Industry",
+      "district": "Sundargarh",
+      "color": "#1e293b",
+      "coordinates": { "x": 54, "y": 8 },
+      "summary": "India's first integrated steel plant to use LD (Linz-Donawitz) technology. Set up with German collaboration in 1959.",
+      "details": {
+        "type": "Integrated Steel Plant",
+        "operator": "SAIL",
+        "established": "1959 (German collaboration)",
+        "districts": ["Sundargarh"],
+        "notes": "First plant in India to use LD technology."
+      }
+    },
+    {
+      "id": "tata-kalinganagar",
+      "name": "TATA Steel Kalinganagar",
+      "category": "Industry",
+      "district": "Jajpur",
+      "color": "#1e293b",
+      "coordinates": { "x": 71, "y": 36 },
+      "summary": "Largest integrated steel plant in India, located in the Kalinganagar industrial cluster (Duburi, Jajpur).",
+      "details": {
+        "type": "Integrated Steel Plant",
+        "operator": "Tata Steel",
+        "districts": ["Jajpur"],
+        "notes": "Anchor unit of the Kalinganagar industrial region."
+      }
+    },
+    {
+      "id": "nalco-damanjodi",
+      "name": "NALCO Alumina Refinery (Damanjodi)",
+      "category": "Industry",
+      "district": "Koraput",
+      "color": "#94a3b8",
+      "coordinates": { "x": 22, "y": 75 },
+      "summary": "Asia's largest integrated alumina/aluminium complex. Damanjodi refinery is fed by the adjacent Panchpatmali bauxite mine.",
+      "details": {
+        "type": "Alumina Refinery",
+        "operator": "NALCO",
+        "established": "1981",
+        "districts": ["Koraput"],
+        "notes": "Asia's largest integrated alumina/aluminium complex; one of the most modern globally."
+      }
+    },
+    {
+      "id": "nalco-angul",
+      "name": "NALCO Smelter (Angul)",
+      "category": "Industry",
+      "district": "Angul",
+      "color": "#94a3b8",
+      "coordinates": { "x": 53, "y": 36 },
+      "summary": "Aluminium smelter and captive power plant. Paired with the Damanjodi refinery.",
+      "details": {
+        "type": "Aluminium Smelter",
+        "operator": "NALCO",
+        "districts": ["Angul"]
+      }
+    },
+    {
+      "id": "vedanta-jharsuguda",
+      "name": "Vedanta Aluminium Smelter",
+      "category": "Industry",
+      "district": "Jharsuguda",
+      "color": "#94a3b8",
+      "coordinates": { "x": 35, "y": 18 },
+      "summary": "The world's largest single-location aluminium smelter.",
+      "details": {
+        "type": "Aluminium Smelter",
+        "operator": "Vedanta",
+        "districts": ["Jharsuguda"],
+        "notes": "World's largest single-location aluminium smelter."
+      }
+    },
+    {
+      "id": "hindalco-hirakud",
+      "name": "HINDALCO Hirakud",
+      "category": "Industry",
+      "district": "Sambalpur",
+      "color": "#94a3b8",
+      "coordinates": { "x": 41, "y": 24 },
+      "summary": "Aluminium smelter co-located with the Hirakud captive power facilities.",
+      "details": {
+        "type": "Aluminium Smelter",
+        "operator": "HINDALCO (Aditya Birla)",
+        "districts": ["Sambalpur"]
+      }
+    },
+    {
+      "id": "utkal-alumina",
+      "name": "Utkal Alumina",
+      "category": "Industry",
+      "district": "Rayagada",
+      "color": "#94a3b8",
+      "coordinates": { "x": 30, "y": 64 },
+      "summary": "Alumina refinery near Tikiri in Rayagada district.",
+      "details": {
+        "type": "Alumina Refinery",
+        "operator": "HINDALCO (Utkal Alumina)",
+        "districts": ["Rayagada"]
+      }
+    },
+    {
+      "id": "infocity-bhubaneswar",
+      "name": "Infocity Bhubaneswar",
+      "category": "Industry",
+      "district": "Khordha",
+      "color": "#8b5cf6",
+      "coordinates": { "x": 66, "y": 47 },
+      "summary": "Largest IT park in Eastern India. Hosts TCS, Infosys, Wipro and others.",
+      "details": {
+        "type": "IT Park",
+        "districts": ["Khordha"],
+        "products": ["IT services", "Software development", "BPO"],
+        "notes": "Largest IT park in Eastern India."
+      }
+    },
+    {
+      "id": "rajgangpur-cement",
+      "name": "Rajgangpur Cement",
+      "category": "Industry",
+      "district": "Sundargarh",
+      "color": "#a8a29e",
+      "coordinates": { "x": 47, "y": 12 },
+      "summary": "Site of India's first Odisha cement factory (established 1948). Odisha is the second-largest cement producer in India.",
+      "details": {
+        "type": "Cement",
+        "established": "1948",
+        "districts": ["Sundargarh"],
+        "notes": "First cement factory in Odisha. State ranks #2 in India in cement production."
+      }
+    },
+    {
+      "id": "paradip-phosphates",
+      "name": "Paradip Phosphates",
+      "category": "Industry",
+      "district": "Jagatsinghpur",
+      "color": "#16a34a",
+      "coordinates": { "x": 84, "y": 47 },
+      "summary": "Major fertilizer complex at Paradip, alongside the petroleum-coke and seafood industries.",
+      "details": {
+        "type": "Chemicals / Fertilizer",
+        "operator": "Paradip Phosphates Limited",
+        "districts": ["Jagatsinghpur"],
+        "products": ["DAP", "NPK fertilizers"]
+      }
+    },
+    {
+      "id": "fci-talcher",
+      "name": "FCI Talcher",
+      "category": "Industry",
+      "district": "Angul",
+      "color": "#16a34a",
+      "coordinates": { "x": 50, "y": 32 },
+      "summary": "Fertilizer Corporation of India unit at Talcher — coal-based fertilizer production.",
+      "details": {
+        "type": "Chemicals / Fertilizer",
+        "operator": "Fertilizer Corporation of India",
+        "districts": ["Angul"],
+        "fuel": "Coal (Talcher coalfield)"
+      }
+    },
+    {
+      "id": "sambalpuri-handloom",
+      "name": "Sambalpuri Handloom",
+      "category": "Industry",
+      "district": "Sambalpur",
+      "color": "#d946ef",
+      "coordinates": { "x": 42, "y": 29 },
+      "summary": "Famous Sambalpuri ikat and Tasar silk handloom cluster. Employs millions across rural Odisha.",
+      "details": {
+        "type": "Handloom & Silk",
+        "districts": ["Sambalpur", "Bargarh", "Sonepur"],
+        "products": ["Sambalpuri ikat", "Tasar silk"]
+      }
+    },
+    {
+      "id": "hal-sunabeda",
+      "name": "HAL Sunabeda",
+      "category": "Industry",
+      "district": "Koraput",
+      "color": "#06b6d4",
+      "coordinates": { "x": 17, "y": 78 },
+      "summary": "HAL Engine Division — aero-engine manufacturing. Components also supplied by L&T.",
+      "details": {
+        "type": "Aeronautical",
+        "operator": "Hindustan Aeronautics Limited (HAL)",
+        "districts": ["Koraput"],
+        "products": ["Aero-engines"]
+      }
+    },
+    {
+      "id": "talcher-tps",
+      "name": "Talcher Thermal Power Station",
+      "category": "Thermal Power",
+      "district": "Angul",
+      "color": "#ef4444",
+      "coordinates": { "x": 49, "y": 34 },
+      "summary": "Largest power complex in Odisha — 4,600 MW. Coal-fired, fed by the adjacent Talcher coalfield.",
+      "details": {
+        "type": "Thermal (Coal)",
+        "operator": "NTPC",
+        "capacity": "4,600 MW",
+        "districts": ["Angul"],
+        "fuel": "Coal (Talcher coalfield, Brahmani Valley)"
+      }
+    },
+    {
+      "id": "ib-thermal",
+      "name": "IB Thermal Power Plant",
+      "category": "Thermal Power",
+      "district": "Jharsuguda",
+      "color": "#ef4444",
+      "coordinates": { "x": 37, "y": 16 },
+      "summary": "OPGC-operated thermal plant in the Ib Valley coalfield region.",
+      "details": {
+        "type": "Thermal (Coal)",
+        "operator": "OPGC",
+        "capacity": "1,320 MW",
+        "districts": ["Jharsuguda"],
+        "fuel": "Coal (Ib Valley coalfield)"
+      }
+    },
+    {
+      "id": "hirakud-thermal",
+      "name": "Hirakud Thermal Power Plant",
+      "category": "Thermal Power",
+      "district": "Sambalpur",
+      "color": "#ef4444",
+      "coordinates": { "x": 40, "y": 26 },
+      "summary": "Smaller coal-fired plant co-located near the Hirakud reservoir.",
+      "details": {
+        "type": "Thermal (Coal)",
+        "capacity": "300 MW",
+        "districts": ["Sambalpur"],
+        "fuel": "Coal"
+      }
+    },
+    {
+      "id": "hirakud-hydel",
+      "name": "Hirakud Hydel Project",
+      "category": "Hydel Power",
+      "district": "Sambalpur",
+      "color": "#0ea5e9",
+      "coordinates": { "x": 42, "y": 23 },
+      "summary": "Commissioned in 1956 as India's largest hydroelectric plant of its day. Built on the Mahanadi at Hirakud Dam.",
+      "details": {
+        "type": "Hydroelectric",
+        "capacity": "294 MW",
+        "established": "1956",
+        "districts": ["Sambalpur"],
+        "river": "Mahanadi",
+        "notes": "Was India's largest hydro plant at commissioning."
+      }
+    },
+    {
+      "id": "balimela-hydel",
+      "name": "Balimela Hydel Project",
+      "category": "Hydel Power",
+      "district": "Malkangiri",
+      "color": "#0ea5e9",
+      "coordinates": { "x": 10, "y": 86 },
+      "summary": "Hydroelectric station on the Sileru river in Malkangiri district.",
+      "details": {
+        "type": "Hydroelectric",
+        "districts": ["Malkangiri"],
+        "river": "Sileru (Machkund system)"
+      }
+    },
+    {
+      "id": "upper-indravati",
+      "name": "Upper Indravati Hydel",
+      "category": "Hydel Power",
+      "district": "Kalahandi",
+      "color": "#0ea5e9",
+      "coordinates": { "x": 22, "y": 60 },
+      "summary": "600 MW project on the Indravati river — among Odisha's largest hydel installations.",
+      "details": {
+        "type": "Hydroelectric",
+        "capacity": "600 MW",
+        "districts": ["Kalahandi", "Nabarangpur"],
+        "river": "Indravati"
+      }
+    },
+    {
+      "id": "rengali-hydel",
+      "name": "Rengali Hydel",
+      "category": "Hydel Power",
+      "district": "Angul",
+      "color": "#0ea5e9",
+      "coordinates": { "x": 56, "y": 30 },
+      "summary": "Hydel project on the Brahmani river at Rengali dam.",
+      "details": {
+        "type": "Hydroelectric",
+        "districts": ["Angul"],
+        "river": "Brahmani"
+      }
+    },
+    {
+      "id": "upper-kolab",
+      "name": "Upper Kolab Hydel",
+      "category": "Hydel Power",
+      "district": "Koraput",
+      "color": "#0ea5e9",
+      "coordinates": { "x": 24, "y": 80 },
+      "summary": "Hydroelectric station on the Kolab river in Koraput.",
+      "details": {
+        "type": "Hydroelectric",
+        "districts": ["Koraput"],
+        "river": "Kolab"
+      }
+    },
+    {
+      "id": "machkund-hydel",
+      "name": "Machkund Hydel",
+      "category": "Hydel Power",
+      "district": "Koraput",
+      "color": "#0ea5e9",
+      "coordinates": { "x": 8, "y": 92 },
+      "summary": "Hydroelectric project on the Machkund river, shared with Andhra Pradesh.",
+      "details": {
+        "type": "Hydroelectric",
+        "districts": ["Koraput"],
+        "river": "Machkund (shared with Andhra Pradesh)"
+      }
+    },
+    {
+      "id": "solar-dhamra",
+      "name": "Dhamra Solar Plant",
+      "category": "Renewable",
+      "district": "Bhadrak",
+      "color": "#facc15",
+      "coordinates": { "x": 86, "y": 38 },
+      "summary": "Grid-connected solar plant on the Dhamra coast, part of Odisha's 10,000 MW solar target by 2030.",
+      "details": {
+        "type": "Solar PV",
+        "districts": ["Bhadrak"],
+        "fuel": "Solar",
+        "notes": "Part of state target: 10,000 MW solar by 2030."
+      }
+    },
+    {
+      "id": "solar-lanjigarh",
+      "name": "Lanjigarh Solar Plant",
+      "category": "Renewable",
+      "district": "Kalahandi",
+      "color": "#facc15",
+      "coordinates": { "x": 28, "y": 56 },
+      "summary": "Grid-connected solar plant in Kalahandi, near the Lanjigarh industrial area.",
+      "details": {
+        "type": "Solar PV",
+        "districts": ["Kalahandi"],
+        "fuel": "Solar"
+      }
+    },
+    {
+      "id": "wind-ganjam",
+      "name": "Ganjam Wind Farm",
+      "category": "Renewable",
+      "district": "Ganjam",
+      "color": "#93c5fd",
+      "coordinates": { "x": 55, "y": 65 },
+      "summary": "Wind installation on the Ganjam coast. Part of Odisha's 2,000 MW wind target by 2030.",
+      "details": {
+        "type": "Wind",
+        "districts": ["Ganjam"],
+        "fuel": "Wind"
+      }
+    },
+    {
+      "id": "wind-puri",
+      "name": "Puri Wind Farm",
+      "category": "Renewable",
+      "district": "Puri",
+      "color": "#93c5fd",
+      "coordinates": { "x": 71, "y": 56 },
+      "summary": "Coastal wind farm in Puri district.",
+      "details": {
+        "type": "Wind",
+        "districts": ["Puri"],
+        "fuel": "Wind"
+      }
+    },
+    {
+      "id": "region-talcher-angul",
+      "name": "Talcher–Angul Industrial Region",
+      "category": "Industrial Region",
+      "district": "Angul",
+      "color": "#fb923c",
+      "coordinates": { "x": 51, "y": 34 },
+      "radius": 28,
+      "summary": "Thermal power, aluminium and coal mining hub. Hosts Talcher TPS, NALCO Angul, FCI Talcher, and the Talcher coalfield.",
+      "details": {
+        "type": "Industrial Region",
+        "districts": ["Angul"],
+        "products": ["Thermal Power", "Aluminium", "Coal", "Fertilizer"]
+      }
+    },
+    {
+      "id": "region-ib-valley",
+      "name": "Jharsuguda–Ib Valley",
+      "category": "Industrial Region",
+      "district": "Jharsuguda",
+      "color": "#fb923c",
+      "coordinates": { "x": 37, "y": 17 },
+      "radius": 20,
+      "summary": "Thermal power and sponge-iron hub. Hosts the Ib Valley coalfield, Vedanta smelter and IB Thermal.",
+      "details": {
+        "type": "Industrial Region",
+        "districts": ["Jharsuguda", "Sundargarh"],
+        "products": ["Thermal Power", "Aluminium", "Sponge Iron", "Coal"]
+      }
+    },
+    {
+      "id": "region-paradip",
+      "name": "Paradip Industrial Region",
+      "category": "Industrial Region",
+      "district": "Jagatsinghpur",
+      "color": "#fb923c",
+      "coordinates": { "x": 84, "y": 47 },
+      "radius": 14,
+      "summary": "Major port-led industrial cluster — fertilizers, petroleum coke, seafood processing.",
+      "details": {
+        "type": "Industrial Region",
+        "districts": ["Jagatsinghpur"],
+        "products": ["Fertilizers", "Petroleum coke", "Seafood processing"]
+      }
+    },
+    {
+      "id": "region-kalinganagar",
+      "name": "Kalinganagar (Duburi)",
+      "category": "Industrial Region",
+      "district": "Jajpur",
+      "color": "#fb923c",
+      "coordinates": { "x": 72, "y": 36 },
+      "radius": 15,
+      "summary": "Integrated steel and ferro-alloys hub. Anchored by TATA Steel Kalinganagar; close to Sukinda chromite-nickel field.",
+      "details": {
+        "type": "Industrial Region",
+        "districts": ["Jajpur"],
+        "products": ["Steel", "Ferro-alloys"]
+      }
+    },
+    {
+      "id": "region-joda-barbil",
+      "name": "Joda–Barbil",
+      "category": "Industrial Region",
+      "district": "Keonjhar",
+      "color": "#fb923c",
+      "coordinates": { "x": 62, "y": 21 },
+      "radius": 15,
+      "summary": "Iron-ore crushing and mineral processing hub. Sits on top of the Bonai-Keonjhar iron belt.",
+      "details": {
+        "type": "Industrial Region",
+        "districts": ["Keonjhar"],
+        "products": ["Iron ore crushing", "Mineral processing"]
+      }
+    }
+  ]
+}

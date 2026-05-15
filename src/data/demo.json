@@ -1,0 +1,19 @@
+{
+  "id": "demo",
+  "label": "Demo (replace with real data)",
+  "color": "#3b82f6",
+  "locations": [
+    {
+      "id": "placeholder-1",
+      "name": "Placeholder Location",
+      "coordinates": { "x": 50, "y": 50 },
+      "summary": "Replace this file with your real topic JSON.",
+      "details": {
+        "note": "This is a stub so the app boots before real data arrives."
+      }
+    }
+  ],
+  "detailFields": [
+    { "key": "note", "label": "Note", "format": "text" }
+  ]
+}

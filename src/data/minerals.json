@@ -1,0 +1,304 @@
+{
+  "id": "minerals",
+  "label": "Minerals",
+  "color": "#475569",
+  "detailFields": [
+    { "key": "rank", "label": "India Rank", "format": "text" },
+    { "key": "reserves", "label": "Reserves / Production", "format": "text" },
+    { "key": "districts", "label": "Districts", "format": "list" },
+    { "key": "keyDeposits", "label": "Key Deposits", "format": "list" },
+    { "key": "characteristics", "label": "Characteristics", "format": "text" },
+    { "key": "uses", "label": "Uses / Export", "format": "text" },
+    { "key": "notes", "label": "Notes", "format": "text" }
+  ],
+  "locations": [
+    {
+      "id": "iron-ore",
+      "name": "Iron Ore",
+      "category": "Metallic",
+      "district": "Keonjhar",
+      "color": "#b45309",
+      "coordinates": { "x": 62, "y": 22 },
+      "summary": "Odisha ranks #1 in India in iron ore production. First discovered in Mayurbhanj in 1904.",
+      "details": {
+        "rank": "#1 in India",
+        "districts": ["Keonjhar", "Sundargarh", "Mayurbhanj", "Jajpur", "Bargarh"],
+        "keyDeposits": [
+          "Bonai-Keonjhar Belt (primary)",
+          "Gandhamardan (Bargarh)",
+          "Tomka-Daitari (Jajpur)",
+          "Gorumahisani-Badampahar (Mayurbhanj)"
+        ],
+        "characteristics": "Ore varies from magnetite to haematite.",
+        "notes": "First Indian iron ore discovery was at Mayurbhanj in 1904."
+      }
+    },
+    {
+      "id": "manganese",
+      "name": "Manganese Ore",
+      "category": "Metallic",
+      "district": "Keonjhar",
+      "color": "#6b21a8",
+      "coordinates": { "x": 60, "y": 25 },
+      "summary": "About 30% of India's manganese output — second nationally. The Bonai-Keonjhar belt alone produces ~90% of the state's total.",
+      "details": {
+        "rank": "#2 in India (≈ 30% of national production)",
+        "districts": ["Keonjhar", "Sundargarh", "Koraput", "Kalahandi", "Bolangir"],
+        "keyDeposits": [
+          "Bonai-Keonjhar area (≈ 90% of state output)",
+          "Koraput-Kalahandi-Bolangir area",
+          "Gangapur area"
+        ]
+      }
+    },
+    {
+      "id": "chromite",
+      "name": "Chromite",
+      "category": "Metallic",
+      "district": "Jajpur",
+      "color": "#0f172a",
+      "coordinates": { "x": 70, "y": 36 },
+      "summary": "Largest chromite producer in India. The Sukinda-Boula-Nuasahi field holds 90% of India's reserves.",
+      "details": {
+        "rank": "#1 in India",
+        "districts": ["Jajpur"],
+        "keyDeposits": ["Sukinda-Boula-Nuasahi field, Jajpur (90% of India's reserves)"],
+        "uses": "Exported mainly to the USA and Japan."
+      }
+    },
+    {
+      "id": "nickel",
+      "name": "Nickel Ore",
+      "category": "Metallic",
+      "district": "Jajpur",
+      "color": "#65a30d",
+      "coordinates": { "x": 72, "y": 33 },
+      "summary": "Largest nickel producer in India. Found alongside chromite at Sukinda, and in Similipal.",
+      "details": {
+        "rank": "#1 in India",
+        "districts": ["Jajpur", "Mayurbhanj"],
+        "keyDeposits": ["Sukinda area (Jajpur)", "Similipal area (Mayurbhanj)"]
+      }
+    },
+    {
+      "id": "magnetite",
+      "name": "Magnetite",
+      "category": "Metallic",
+      "district": "Mayurbhanj",
+      "color": "#334155",
+      "coordinates": { "x": 76, "y": 14 },
+      "summary": "Vanadiferrous and titaniferous magnetite deposits in five main belts across Mayurbhanj.",
+      "details": {
+        "districts": ["Mayurbhanj"],
+        "keyDeposits": ["Bisoi-Rairangpur belt", "Bisoi-Joshipur belt"],
+        "characteristics": "Vanadiferrous and titaniferous varieties."
+      }
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "category": "Metallic",
+      "district": "Deogarh",
+      "color": "#eab308",
+      "coordinates": { "x": 55, "y": 20 },
+      "summary": "Alluvial deposits in the river valleys and flood plains of the Subarnarekha, Brahmani, and Baitarani.",
+      "details": {
+        "districts": ["Deogarh", "Keonjhar", "Mayurbhanj"],
+        "keyDeposits": [
+          "Subarnarekha river valley",
+          "Brahmani river valley",
+          "Baitarani river valley"
+        ],
+        "characteristics": "Alluvial — recovered from river gravels and flood plains."
+      }
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum Ore",
+      "category": "Metallic",
+      "district": "Mayurbhanj",
+      "color": "#cbd5e1",
+      "coordinates": { "x": 80, "y": 12 },
+      "summary": "Bhuban-Baripada region holds the world's highest recorded natural platinum values — 220–520 g/tonne.",
+      "details": {
+        "districts": ["Mayurbhanj"],
+        "keyDeposits": ["Bhuban-Baripada region"],
+        "characteristics": "220–520 g/tonne — the highest recorded natural values in the world."
+      }
+    },
+    {
+      "id": "base-metals",
+      "name": "Base Metals (Copper, Lead)",
+      "category": "Metallic",
+      "district": "Sundargarh",
+      "color": "#ea580c",
+      "coordinates": { "x": 48, "y": 11 },
+      "summary": "Copper and lead deposits, primarily in the Sargipali belt of Sundargarh.",
+      "details": {
+        "districts": ["Sundargarh", "Cuttack"],
+        "keyDeposits": ["Sargipali belt (Sundargarh)", "Kesarpur (Cuttack)"]
+      }
+    },
+    {
+      "id": "tin",
+      "name": "Tin Ore",
+      "category": "Metallic",
+      "district": "Malkangiri",
+      "color": "#94a3b8",
+      "coordinates": { "x": 8, "y": 86 },
+      "summary": "Primary tin production from Malkangiri district.",
+      "details": {
+        "districts": ["Malkangiri"]
+      }
+    },
+    {
+      "id": "bauxite",
+      "name": "Bauxite",
+      "category": "Non-Metallic",
+      "district": "Koraput",
+      "color": "#dc2626",
+      "coordinates": { "x": 18, "y": 75 },
+      "summary": "Largest bauxite reserves in India. Occurs as laterite cappings on hill plateaus.",
+      "details": {
+        "rank": "#1 reserves in India",
+        "districts": ["Koraput", "Rayagada", "Bargarh", "Mayurbhanj"],
+        "keyDeposits": [
+          "Panchpatmali (Koraput) — largest mine",
+          "Baphlimali",
+          "Gandhamardan plateau",
+          "Similipal complex"
+        ],
+        "characteristics": "Laterite cappings on plateau tops."
+      }
+    },
+    {
+      "id": "coal",
+      "name": "Coal",
+      "category": "Non-Metallic",
+      "district": "Angul",
+      "color": "#18181b",
+      "coordinates": { "x": 52, "y": 33 },
+      "summary": "Second largest coal producer in India. Talcher (Brahmani Valley) powers thermal stations; Ib Valley holds 21,000+ million tonnes of reserves.",
+      "details": {
+        "rank": "#2 in India",
+        "districts": ["Angul", "Jharsuguda", "Sundargarh"],
+        "keyDeposits": [
+          "Talcher Coalfield (Brahmani Valley) — thermal power",
+          "Ib Valley Coalfield (Jharsuguda/Sundargarh) — 21,000+ MT reserves"
+        ]
+      }
+    },
+    {
+      "id": "limestone-dolomite",
+      "name": "Limestone & Dolomite",
+      "category": "Non-Metallic",
+      "district": "Sundargarh",
+      "color": "#facc15",
+      "coordinates": { "x": 42, "y": 10 },
+      "summary": "Sundargarh alone accounts for ~50% of India's total limestone production. Biramitrapur is a principal source of flux-grade minerals.",
+      "details": {
+        "rank": "Leading producer (Sundargarh ≈ 50% of India's limestone)",
+        "districts": ["Sundargarh"],
+        "keyDeposits": ["Biramitrapur deposits (flux-grade)"],
+        "uses": "Flux for steel-making; cement; building stone."
+      }
+    },
+    {
+      "id": "graphite",
+      "name": "Graphite",
+      "category": "Non-Metallic",
+      "district": "Bolangir",
+      "color": "#525252",
+      "coordinates": { "x": 28, "y": 38 },
+      "summary": "Found in four main regions of the Eastern Ghats. Carbon content varies from 40% to 70%.",
+      "details": {
+        "districts": ["Sundargarh", "Bolangir", "Rayagada"],
+        "keyDeposits": ["Sargipali belt", "Titlagarh belt"],
+        "characteristics": "Carbon content: 40%–70%."
+      }
+    },
+    {
+      "id": "heavy-minerals",
+      "name": "Heavy Minerals (Beach Sand)",
+      "category": "Non-Metallic",
+      "district": "Ganjam",
+      "color": "#d97706",
+      "coordinates": { "x": 58, "y": 67 },
+      "summary": "Coastal sand deposits between Rushikulya mouth and Gopalpur, containing ilmenite, garnet, and monazite.",
+      "details": {
+        "districts": ["Ganjam"],
+        "keyDeposits": ["Rushikulya mouth to Gopalpur coastal belt"],
+        "characteristics": "Ilmenite, garnet, monazite in coastal sands.",
+        "uses": "Gopalpur port handles export of ilmenite."
+      }
+    },
+    {
+      "id": "china-clay",
+      "name": "China Clay",
+      "category": "Non-Metallic",
+      "district": "Mayurbhanj",
+      "color": "#a8a29e",
+      "coordinates": { "x": 68, "y": 18 },
+      "summary": "Kaolinitic clay used in ceramics, paper, and refractories.",
+      "details": {
+        "districts": ["Mayurbhanj", "Sundargarh"],
+        "keyDeposits": ["Karanjia / Joshipur (Mayurbhanj)"]
+      }
+    },
+    {
+      "id": "fire-clay",
+      "name": "Fire Clay",
+      "category": "Non-Metallic",
+      "district": "Angul",
+      "color": "#f97316",
+      "coordinates": { "x": 45, "y": 28 },
+      "summary": "Leading Indian producer. Recovered alongside coal in Talcher and Ib river coalfields.",
+      "details": {
+        "rank": "Leading producer in India",
+        "districts": ["Angul", "Jharsuguda", "Sundargarh"],
+        "keyDeposits": ["Talcher coalfield", "Ib river coalfield"],
+        "uses": "Refractory bricks; furnace lining."
+      }
+    },
+    {
+      "id": "pyrophyllite",
+      "name": "Pyrophyllite",
+      "category": "Non-Metallic",
+      "district": "Keonjhar",
+      "color": "#d4d4d8",
+      "coordinates": { "x": 60, "y": 17 },
+      "summary": "Industrial mineral used in ceramics, paints, and refractories.",
+      "details": {
+        "districts": ["Mayurbhanj", "Keonjhar", "Sundargarh"]
+      }
+    },
+    {
+      "id": "diamonds",
+      "name": "Diamonds",
+      "category": "Precious",
+      "district": "Sambalpur",
+      "color": "#93c5fd",
+      "coordinates": { "x": 42, "y": 25 },
+      "summary": "Recovered from the gravel beds of the Mahanadi — historically at Hirakud River Island. Newer resources reported in Nuapada.",
+      "details": {
+        "districts": ["Sambalpur", "Nuapada"],
+        "keyDeposits": ["Hirakud River Island (Mahanadi)", "Nuapada (recent finds)"],
+        "characteristics": "Alluvial — found in river-gravel beds."
+      }
+    },
+    {
+      "id": "gemstones",
+      "name": "Gemstones",
+      "category": "Precious",
+      "district": "Kalahandi",
+      "color": "#ec4899",
+      "coordinates": { "x": 30, "y": 50 },
+      "summary": "Found in the Granulite belts of the Eastern Ghats. Odisha produces emeralds, rubies, sapphires, and aquamarine.",
+      "details": {
+        "districts": ["Angul", "Bolangir", "Kalahandi"],
+        "keyDeposits": ["Eastern Ghats Granulite belt"],
+        "characteristics": "Emeralds, rubies, sapphires, aquamarine."
+      }
+    }
+  ]
+}
