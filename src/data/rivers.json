@@ -21,11 +21,12 @@
       "name": "Subarnarekha",
       "category": "Chhotanagpur Plateau",
       "district": "Mayurbhanj",
-      "coordinates": { "x": 87, "y": 14 },
+      "coordinates": { "x": 82, "y": 14 },
       "path": [
-        { "x": 87, "y": 14 },
-        { "x": 91, "y": 18 },
-        { "x": 94, "y": 22 }
+        { "x": 79, "y": 10 },
+        { "x": 82, "y": 16 },
+        { "x": 85, "y": 22 },
+        { "x": 91, "y": 25 }
       ],
       "summary": "Enters Odisha at Lakshmannath in the northeast; its name means 'Golden Line' for gold once found in its bed.",
       "details": {
@@ -35,9 +36,9 @@
         "lengthOdisha": "70 km",
         "lengthTotal": "395 km",
         "basinArea": "3,200 sq. km",
-        "rightBankTributaries": ["Kharkhai (largest)", "Kanchi", "Karkari"],
+        "rightBankTributaries": ["Kanchi", "Karkari", "Kharkhai (largest)"],
         "leftBankTributaries": ["Dulang"],
-        "significance": "Name means 'Golden Line' — gold particles were once found in its bed."
+        "significance": "Name means 'Golden Line' — gold was once found in its bed. Chandila Dam and Jambhira Dam are on this river. Has an estuarine mouth due to daily tidal action. Causes disastrous floods in its lower reaches before draining into the Bay of Bengal."
       }
     },
     {
@@ -45,36 +46,28 @@
       "name": "Brahmani",
       "category": "Chhotanagpur Plateau",
       "district": "Sundargarh",
-      "coordinates": { "x": 52, "y": 7 },
+      "coordinates": { "x": 41, "y": 10 },
       "path": [
-        { "x": 52, "y": 7 },
-        { "x": 48, "y": 18 },
-        { "x": 50, "y": 28 },
-        { "x": 56, "y": 35 },
-        { "x": 66, "y": 38 },
-        { "x": 76, "y": 40 },
-        { "x": 85, "y": 42 },
-        { "x": 91, "y": 44 }
+        { "x": 41, "y": 10 },
+        { "x": 45, "y": 16 },
+        { "x": 51, "y": 23 },
+        { "x": 53, "y": 33 },
+        { "x": 62, "y": 38 },
+        { "x": 73, "y": 39 },
+        { "x": 79, "y": 35 },
+        { "x": 82, "y": 32 }
       ],
       "summary": "Odisha's second-largest river. Formed by the confluence of the Sankh and Koel at Vedavyas near Rourkela; shares a common outlet with the Mahanadi at Maipura.",
       "details": {
         "system": "Rivers of the Chhotanagpur Plateau",
         "origin": "Confluence of Sankh (right) and Koel (left) at Vedavyas, near Rourkela",
-        "districts": [
-          "Sundargarh",
-          "Angul",
-          "Dhenkanal",
-          "Deogarh",
-          "Jajpur",
-          "Cuttack",
-          "Kendrapada"
-        ],
+        "districts": ["Sundargarh", "Deogarh", "Angul", "Dhenkanal", "Jajpur", "Kendrapara"],
         "lengthOdisha": "480 km",
         "lengthTotal": "799 km",
         "basinArea": "39,055 sq. km",
-        "rightBankTributaries": ["Gohira", "Tikra"],
-        "leftBankTributaries": ["Ramial", "Samakoi"],
-        "significance": "Second-largest river of Odisha. Shares an outlet with the Mahanadi at Maipura; formed the Wheeler Islands (Dr. APJ Abdul Kalam Island)."
+        "rightBankTributaries": ["Gohira", "Tikra", "Singala", "Nonchia", "Biruha", "Khumasana"],
+        "leftBankTributaries": ["Kurali", "Mamradi", "Samkei", "Ramial", "Baltaromi"],
+        "significance": "Second-largest river of Odisha. Formed at Vedavyas (Sankh + Koel confluence) near Rourkela. Rangali Dam controls its flow. Shares outlet with Mahanadi at Maipura (Dhamra Port); formed Wheeler Island (Dr. APJ Abdul Kalam Island)."
       }
     },
     {
@@ -82,43 +75,56 @@
       "name": "Mahanadi",
       "category": "Amarkantak Plateau",
       "district": "Bargarh",
-      "coordinates": { "x": 27, "y": 30 },
+      "coordinates": { "x": 22, "y": 27 },
       "path": [
-        { "x": 27, "y": 30 },
-        { "x": 36, "y": 28 },
-        { "x": 42, "y": 28 },
-        { "x": 40, "y": 35 },
-        { "x": 44, "y": 41 },
-        { "x": 54, "y": 43 },
-        { "x": 64, "y": 45 },
-        { "x": 73, "y": 46 },
-        { "x": 82, "y": 49 }
+        { "x": 22, "y": 27 },
+        { "x": 30, "y": 24 },
+        { "x": 36, "y": 20 },
+        { "x": 42, "y": 27 },
+        { "x": 38, "y": 34 },
+        { "x": 41, "y": 39 },
+        { "x": 51, "y": 42 },
+        { "x": 56, "y": 46 },
+        { "x": 66, "y": 44 },
+        { "x": 75, "y": 43 },
+        { "x": 80, "y": 46 }
       ],
-      "summary": "The largest river of Odisha. Enters near Padigan in Bargarh; hosts the Hirakud Dam and the 23 km Satakosia gorge.",
+      "summary": "The largest river of Odisha. Enters near Padigan in Bargarh; hosts the Hirakud Dam (world's longest earthen dam) and the 23 km Satakosia gorge.",
       "details": {
         "system": "River of the Amarkantak Plateau",
         "origin": "Sihawa Village, Dhamtari district, Chhattisgarh",
         "entrance": "Padigan, Bargarh district",
-        "districts": [
-          "Sambalpur",
-          "Bargarh",
-          "Jharsuguda",
-          "Boudh",
-          "Nayagarh",
-          "Sonepur",
-          "Angul",
-          "Dhenkanal",
-          "Jagatsinghpur",
-          "Cuttack",
-          "Khordha",
-          "Puri"
-        ],
+        "districts": ["Bargarh", "Sambalpur", "Jharsuguda", "Subarnapur", "Boudh", "Nayagarh", "Angul", "Dhenkanal", "Cuttack", "Jagatsinghpur", "Khordha", "Puri"],
         "lengthOdisha": "494 km",
         "lengthTotal": "858.8 km",
         "basinArea": "65,580 sq. km",
-        "rightBankTributaries": ["Tel (largest in Odisha)", "Jira", "Jonk"],
-        "leftBankTributaries": ["Seonath", "Hasdeo", "Mand"],
-        "significance": "Largest river in Odisha. Features the Hirakud Dam and the 23 km Satakosia gorge. Called the 'Sorrow of Odisha' for its floods, yet its fertile delta makes the state a 'Rice Bowl'."
+        "rightBankTributaries": ["Silari", "Sondhur", "Sukha", "Jonk", "Jira", "Jhaun", "Ong", "Tel (largest in Odisha)", "Brutanga", "Kharakhara"],
+        "leftBankTributaries": ["Chhinar", "Seonath", "Hasdeo", "Mand", "Karua", "Kelo", "Surli"],
+        "significance": "Largest river in Odisha. Hirakud Dam (55 km reservoir) is 15 km from Sambalpur. Satakosia gorge (Boudh–Banki stretch). Forms delta at Naraj, Cuttack; mainstream exits at Paradeep. Called the 'Sorrow of Odisha' for floods; fertile delta earns Odisha the title 'Rice Bowl'."
+      }
+    },
+    {
+      "id": "tel",
+      "name": "Tel",
+      "category": "Amarkantak Plateau",
+      "district": "Bolangir",
+      "coordinates": { "x": 27, "y": 40 },
+      "path": [
+        { "x": 17, "y": 44 },
+        { "x": 22, "y": 41 },
+        { "x": 27, "y": 40 },
+        { "x": 32, "y": 37 },
+        { "x": 36, "y": 34 }
+      ],
+      "summary": "Largest right-bank tributary of the Mahanadi in Odisha. Rises in Nuapada and meets the Mahanadi at Sonepur.",
+      "details": {
+        "system": "River of the Amarkantak Plateau",
+        "origin": "Nuapada district (western plateau)",
+        "districts": ["Nuapada", "Bolangir", "Subarnapur"],
+        "lengthOdisha": "296 km",
+        "lengthTotal": "296 km (entirely in Odisha)",
+        "otherTributaries": ["Suktel (main)", "Ang", "Tikhira"],
+        "significance": "Largest right-bank tributary of the Mahanadi. Meets Mahanadi at Sonepur (Subarnapur) on the right bank."
       }
     },
     {
@@ -126,26 +132,19 @@
       "name": "Baitarani",
       "category": "Keonjhar Plateau",
       "district": "Keonjhar",
-      "coordinates": { "x": 62, "y": 23 },
+      "coordinates": { "x": 63, "y": 23 },
       "path": [
-        { "x": 62, "y": 23 },
-        { "x": 70, "y": 30 },
-        { "x": 78, "y": 35 },
-        { "x": 86, "y": 40 },
-        { "x": 90, "y": 43 }
+        { "x": 63, "y": 23 },
+        { "x": 68, "y": 29 },
+        { "x": 73, "y": 37 },
+        { "x": 79, "y": 34 },
+        { "x": 82, "y": 32 }
       ],
       "summary": "Rises at Guptaganga Pahar in Keonjhar; joins the Brahmani's distributaries before entering the sea at Dhamra.",
       "details": {
         "system": "River of the Keonjhar Plateau",
         "origin": "Guptaganga Pahar, Keonjhar district",
-        "districts": [
-          "Keonjhar",
-          "Mayurbhanj",
-          "Sundargarh",
-          "Bhadrak",
-          "Jajpur",
-          "Kendrapada"
-        ],
+        "districts": ["Keonjhar", "Jajpur", "Bhadrak", "Kendrapara"],
         "lengthOdisha": "≈ 360 km",
         "lengthTotal": "≈ 360 km",
         "basinArea": "12,190 sq. km",
@@ -159,12 +158,12 @@
       "name": "Budhabalanga",
       "category": "Eastern Slopes (Eastern Ghats)",
       "district": "Mayurbhanj",
-      "coordinates": { "x": 75, "y": 18 },
+      "coordinates": { "x": 68, "y": 14 },
       "path": [
-        { "x": 75, "y": 18 },
-        { "x": 80, "y": 22 },
-        { "x": 86, "y": 26 },
-        { "x": 92, "y": 28 }
+        { "x": 68, "y": 14 },
+        { "x": 73, "y": 17 },
+        { "x": 81, "y": 23 },
+        { "x": 89, "y": 25 }
       ],
       "summary": "Originates in the Similipal massif in Mayurbhanj and drains the northeastern slope of the Eastern Ghats.",
       "details": {
@@ -182,12 +181,13 @@
       "name": "Rushikulya",
       "category": "Eastern Slopes (Eastern Ghats)",
       "district": "Kandhamal",
-      "coordinates": { "x": 37, "y": 55 },
+      "coordinates": { "x": 36, "y": 48 },
       "path": [
-        { "x": 37, "y": 55 },
-        { "x": 43, "y": 59 },
-        { "x": 50, "y": 62 },
-        { "x": 57, "y": 65 }
+        { "x": 36, "y": 48 },
+        { "x": 40, "y": 54 },
+        { "x": 47, "y": 59 },
+        { "x": 52, "y": 63 },
+        { "x": 56, "y": 67 }
       ],
       "summary": "Lifeline of Ganjam district. Rises at Rushimal mountain in Kandhamal; notably forms no delta at its mouth.",
       "details": {
@@ -198,8 +198,8 @@
         "lengthTotal": "165 km",
         "basinArea": "8,963 sq. km",
         "rightBankTributaries": ["Patama", "Ghodahada"],
-        "leftBankTributaries": ["Baghua", "Dhanei"],
-        "significance": "Known as the 'lifeline of Ganjam district'; uniquely forms no delta at its mouth."
+        "leftBankTributaries": ["Baghua (Bashwa)", "Dhanei"],
+        "significance": "Known as the 'lifeline of Ganjam district'. Pear-shaped basin with dendritic tributary system. Ghodahada Dam is built on its right-bank tributary. Flows through Chhatrapur block and drains into the Bay of Bengal without forming any delta."
       }
     },
     {
@@ -207,11 +207,11 @@
       "name": "Bahuda",
       "category": "Other Eastern Ghats",
       "district": "Gajapati",
-      "coordinates": { "x": 41, "y": 75 },
+      "coordinates": { "x": 59, "y": 73 },
       "path": [
-        { "x": 41, "y": 75 },
-        { "x": 47, "y": 73 },
-        { "x": 53, "y": 71 }
+        { "x": 59, "y": 73 },
+        { "x": 57, "y": 79 },
+        { "x": 56, "y": 84 }
       ],
       "summary": "Rises in the Ramgiri hills of Gajapati and flows into Andhra Pradesh after 73 km.",
       "details": {
@@ -227,12 +227,12 @@
       "name": "Nagavali",
       "category": "Other Eastern Ghats",
       "district": "Kalahandi",
-      "coordinates": { "x": 28, "y": 55 },
+      "coordinates": { "x": 23, "y": 56 },
       "path": [
-        { "x": 28, "y": 55 },
-        { "x": 30, "y": 62 },
-        { "x": 31, "y": 68 },
-        { "x": 33, "y": 73 }
+        { "x": 23, "y": 56 },
+        { "x": 27, "y": 62 },
+        { "x": 30, "y": 68 },
+        { "x": 33, "y": 74 }
       ],
       "summary": "Originates near Lanjigarh in Kalahandi; flows through Rayagada before exiting Odisha.",
       "details": {
@@ -248,12 +248,12 @@
       "name": "Vamsadhara",
       "category": "Other Eastern Ghats",
       "district": "Kalahandi",
-      "coordinates": { "x": 26, "y": 60 },
+      "coordinates": { "x": 22, "y": 59 },
       "path": [
-        { "x": 26, "y": 60 },
-        { "x": 30, "y": 66 },
-        { "x": 36, "y": 71 },
-        { "x": 42, "y": 75 }
+        { "x": 22, "y": 59 },
+        { "x": 27, "y": 65 },
+        { "x": 35, "y": 72 },
+        { "x": 43, "y": 78 }
       ],
       "summary": "Rises in the Durgakangar hills of Kalahandi and flows through Rayagada and Gajapati.",
       "details": {
@@ -269,18 +269,18 @@
       "name": "Indravati",
       "category": "Godavari System",
       "district": "Kalahandi",
-      "coordinates": { "x": 22, "y": 62 },
+      "coordinates": { "x": 18, "y": 62 },
       "path": [
-        { "x": 22, "y": 62 },
-        { "x": 16, "y": 65 },
-        { "x": 11, "y": 67 },
-        { "x": 5, "y": 69 }
+        { "x": 23, "y": 57 },
+        { "x": 18, "y": 62 },
+        { "x": 12, "y": 65 },
+        { "x": 6, "y": 70 }
       ],
       "summary": "A Godavari-system tributary rising in Kalahandi; flows through Koraput and Nabarangpur.",
       "details": {
         "system": "The Godavari System Tributaries",
         "origin": "Kalahandi district",
-        "districts": ["Kalahandi", "Koraput", "Nabarangpur"],
+        "districts": ["Kalahandi", "Nabarangpur", "Koraput"],
         "lengthOdisha": "167 km",
         "lengthTotal": "167 km (within Odisha)"
       }
@@ -290,10 +290,10 @@
       "name": "Kolab",
       "category": "Godavari System",
       "district": "Koraput",
-      "coordinates": { "x": 20, "y": 76 },
+      "coordinates": { "x": 20, "y": 74 },
       "path": [
-        { "x": 20, "y": 76 },
-        { "x": 16, "y": 82 },
+        { "x": 20, "y": 74 },
+        { "x": 16, "y": 81 },
         { "x": 11, "y": 87 }
       ],
       "summary": "Rises in the Sinkaran hills of Koraput; a Godavari-system tributary.",
@@ -310,17 +310,17 @@
       "name": "Machkund (Sileru)",
       "category": "Godavari System",
       "district": "Koraput",
-      "coordinates": { "x": 5, "y": 93 },
+      "coordinates": { "x": 7, "y": 87 },
       "path": [
-        { "x": 12, "y": 84 },
-        { "x": 8, "y": 89 },
-        { "x": 5, "y": 93 }
+        { "x": 10, "y": 83 },
+        { "x": 7, "y": 88 },
+        { "x": 4, "y": 93 }
       ],
       "summary": "Originates in Andhra Pradesh, flows through Odisha, and joins the Sabari River at the state's southwestern tip.",
       "details": {
         "system": "The Godavari System Tributaries",
         "origin": "Andhra Pradesh; flows through Odisha",
-        "districts": ["Koraput"],
+        "districts": ["Koraput", "Malkangiri"],
         "significance": "Joins the Sabari River at Odisha's southwestern tip."
       }
     }

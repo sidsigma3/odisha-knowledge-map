@@ -1,0 +1,465 @@
+{
+  "id": "districts",
+  "label": "Districts",
+  "color": "#8b5cf6",
+  "icon": "district",
+  "detailFields": [
+    { "key": "headquarters", "label": "District HQ", "format": "text" },
+    { "key": "region", "label": "Region", "format": "text" },
+    { "key": "area", "label": "Area", "format": "text" },
+    { "key": "rivers", "label": "Major Rivers", "format": "list" },
+    { "key": "notable", "label": "Notable Features", "format": "text" }
+  ],
+  "locations": [
+    {
+      "id": "sundargarh",
+      "name": "Sundargarh",
+      "category": "Northern Odisha",
+      "district": "Sundargarh",
+      "coordinates": { "x": 43.8, "y": 8.8 },
+      "summary": "Odisha's northernmost major district, home to Rourkela Steel Plant and rich tribal heritage.",
+      "details": {
+        "headquarters": "Sundargarh",
+        "region": "Northern Odisha",
+        "area": "9,712 sq. km",
+        "rivers": ["Brahmani (Koel + Sankh)", "Ib", "Brahmani"],
+        "notable": "Rourkela Steel Plant; significant Ho and Oraon tribal population; borders Jharkhand and Chhattisgarh."
+      }
+    },
+    {
+      "id": "jharsuguda",
+      "name": "Jharsuguda",
+      "category": "Northern Odisha",
+      "district": "Jharsuguda",
+      "coordinates": { "x": 36.5, "y": 17.3 },
+      "summary": "Smallest district by area, known as Odisha's energy capital with major thermal power stations.",
+      "details": {
+        "headquarters": "Jharsuguda",
+        "region": "Northern Odisha",
+        "area": "2,114 sq. km",
+        "rivers": ["Ib", "Mahanadi"],
+        "notable": "Ib thermal power station; major coal belt; Veer Surendra Sai Airport."
+      }
+    },
+    {
+      "id": "sambalpur",
+      "name": "Sambalpur",
+      "category": "Western Odisha",
+      "district": "Sambalpur",
+      "coordinates": { "x": 41.8, "y": 27.9 },
+      "summary": "Cultural capital of western Odisha and home to the famous Hirakud Dam, the world's longest earthen dam.",
+      "details": {
+        "headquarters": "Sambalpur",
+        "region": "Western Odisha",
+        "area": "6,657 sq. km",
+        "rivers": ["Mahanadi", "Ib", "Lilei"],
+        "notable": "Hirakud Dam; Sambalpur University; famous Sambalpuri weave and Dalkhai folk dance."
+      }
+    },
+    {
+      "id": "bargarh",
+      "name": "Bargarh",
+      "category": "Western Odisha",
+      "district": "Bargarh",
+      "coordinates": { "x": 31.8, "y": 29.6 },
+      "summary": "Gateway district for the Mahanadi as it enters Odisha; known for rice cultivation and Dhanu Yatra festival.",
+      "details": {
+        "headquarters": "Bargarh",
+        "region": "Western Odisha",
+        "area": "5,838 sq. km",
+        "rivers": ["Mahanadi", "Ong", "Jeera"],
+        "notable": "Mahanadi enters Odisha at Padigan; Dhanu Yatra (world's largest open-air theatre festival); major rice bowl."
+      }
+    },
+    {
+      "id": "deogarh",
+      "name": "Deogarh",
+      "category": "Northern Odisha",
+      "district": "Deogarh",
+      "coordinates": { "x": 51.1, "y": 23.8 },
+      "summary": "Forested hill district through which the Brahmani river flows; rich in iron and manganese deposits.",
+      "details": {
+        "headquarters": "Deogarh",
+        "region": "Northern Odisha",
+        "area": "2,940 sq. km",
+        "rivers": ["Brahmani", "Tel"],
+        "notable": "Iron and manganese deposits; dense forests; Brahmani river flows through."
+      }
+    },
+    {
+      "id": "keonjhar",
+      "name": "Keonjhar",
+      "category": "Northern Odisha",
+      "district": "Keonjhar",
+      "coordinates": { "x": 64.3, "y": 25.0 },
+      "summary": "Mineral-rich tribal district; Odisha's largest producer of iron ore and chromite.",
+      "details": {
+        "headquarters": "Keonjhar",
+        "region": "Northern Odisha",
+        "area": "8,303 sq. km",
+        "rivers": ["Baitarani", "Brahmani (upper)", "Karo"],
+        "notable": "Major iron ore and chromite reserves; Baitarani river origin (Guptaganga Pahar); Gonasika — Baitarani source gorge."
+      }
+    },
+    {
+      "id": "mayurbhanj",
+      "name": "Mayurbhanj",
+      "category": "Northern Odisha",
+      "district": "Mayurbhanj",
+      "coordinates": { "x": 73.5, "y": 16.5 },
+      "summary": "Odisha's largest district by area; home to Similipal Tiger Reserve, one of India's most biodiverse forests.",
+      "details": {
+        "headquarters": "Baripada",
+        "region": "Northern Odisha",
+        "area": "10,418 sq. km",
+        "rivers": ["Budhabalanga", "Subarnarekha", "Baitarani (upper)"],
+        "notable": "Similipal Biosphere Reserve and Tiger Reserve; Chhau dance origin; Odisha's largest district."
+      }
+    },
+    {
+      "id": "bolangir",
+      "name": "Bolangir",
+      "category": "Western Odisha",
+      "district": "Bolangir",
+      "coordinates": { "x": 26.9, "y": 41.9 },
+      "summary": "Western plateau district known for the Tel river, textile weaving, and ancient temple town of Patnagarh.",
+      "details": {
+        "headquarters": "Bolangir",
+        "region": "Western Odisha",
+        "area": "6,575 sq. km",
+        "rivers": ["Tel", "Ang", "Suktel"],
+        "notable": "Tel river (largest right-bank tributary of Mahanadi); Patnagarh ancient temple; Sambalpuri textiles."
+      }
+    },
+    {
+      "id": "subarnapur",
+      "name": "Subarnapur",
+      "category": "Western Odisha",
+      "district": "Subarnapur",
+      "coordinates": { "x": 35.9, "y": 34.6 },
+      "summary": "Also called Sonepur; confluence district of Mahanadi and Tel rivers, famous for Asia's largest cattle fair.",
+      "details": {
+        "headquarters": "Sonepur",
+        "region": "Western Odisha",
+        "area": "2,337 sq. km",
+        "rivers": ["Mahanadi", "Tel"],
+        "notable": "Sonepur Cattle Fair (Kartika Purnima) — Asia's largest; Mahanadi–Tel confluence at Sonepur."
+      }
+    },
+    {
+      "id": "boudh",
+      "name": "Boudh",
+      "category": "Western Odisha",
+      "district": "Boudh",
+      "coordinates": { "x": 40.9, "y": 39.5 },
+      "summary": "Compact forested district through which the Mahanadi passes before the Satakosia gorge.",
+      "details": {
+        "headquarters": "Boudh",
+        "region": "Western Odisha",
+        "area": "3,098 sq. km",
+        "rivers": ["Mahanadi"],
+        "notable": "Gateway to Satakosia gorge; dense forests; Boudh Buddhist heritage."
+      }
+    },
+    {
+      "id": "angul",
+      "name": "Angul",
+      "category": "Central Odisha",
+      "district": "Angul",
+      "coordinates": { "x": 51.6, "y": 36.0 },
+      "summary": "Central industrial district; home to Talcher coalfields, NALCO aluminium complex, and the Brahmani river.",
+      "details": {
+        "headquarters": "Angul",
+        "region": "Central Odisha",
+        "area": "6,232 sq. km",
+        "rivers": ["Brahmani", "Mahanadi (Satakosia section)", "Nandira"],
+        "notable": "Talcher coalfields (Odisha's largest coal reserve); NALCO; Satakosia Tiger Reserve."
+      }
+    },
+    {
+      "id": "dhenkanal",
+      "name": "Dhenkanal",
+      "category": "Central Odisha",
+      "district": "Dhenkanal",
+      "coordinates": { "x": 61.8, "y": 37.7 },
+      "summary": "Central district through which the Brahmani and Mahanadi river basins meet, with rich forest cover.",
+      "details": {
+        "headquarters": "Dhenkanal",
+        "region": "Central Odisha",
+        "area": "4,452 sq. km",
+        "rivers": ["Brahmani", "Nandira", "Taldanda Canal"],
+        "notable": "Kapilash Shiva temple; Brahmani flows through; rich forest cover; Odisha's paddy granary."
+      }
+    },
+    {
+      "id": "cuttack",
+      "name": "Cuttack",
+      "category": "Coastal Odisha",
+      "district": "Cuttack",
+      "coordinates": { "x": 68.0, "y": 44.1 },
+      "summary": "Odisha's commercial capital and 'Silver City'; ancient seat of the Odishan kings at the Mahanadi–Brahmani delta.",
+      "details": {
+        "headquarters": "Cuttack",
+        "region": "Coastal Odisha",
+        "area": "3,932 sq. km",
+        "rivers": ["Mahanadi", "Kathajodi", "Kuakhai"],
+        "notable": "Odisha's commercial capital; Cuttack Chandi temple; silver filigree craft; Barabati Fort."
+      }
+    },
+    {
+      "id": "jajpur",
+      "name": "Jajpur",
+      "category": "Coastal Odisha",
+      "district": "Jajpur",
+      "coordinates": { "x": 73.8, "y": 38.3 },
+      "summary": "Ancient pilgrimage district on the Baitarani river; home to Biraja temple and Odisha's chromite belt.",
+      "details": {
+        "headquarters": "Jajpur",
+        "region": "Coastal Odisha",
+        "area": "2,899 sq. km",
+        "rivers": ["Baitarani", "Brahmani"],
+        "notable": "Biraja temple (Shakti Pitha); chromite and iron ore mining; Sukinda valley (world's largest chromite reserve)."
+      }
+    },
+    {
+      "id": "kendrapara",
+      "name": "Kendrapara",
+      "category": "Coastal Odisha",
+      "district": "Kendrapara",
+      "coordinates": { "x": 78.9, "y": 43.2 },
+      "summary": "Coastal Mahanadi delta district; home to Bhitarkanika mangroves and nesting ground for Olive Ridley sea turtles.",
+      "details": {
+        "headquarters": "Kendrapara",
+        "region": "Coastal Odisha",
+        "area": "2,644 sq. km",
+        "rivers": ["Mahanadi (Brahmani delta)", "Patamundai"],
+        "notable": "Bhitarkanika National Park (mangroves and saltwater crocodiles); Gahirmatha — world's largest Olive Ridley nesting beach."
+      }
+    },
+    {
+      "id": "jagatsinghpur",
+      "name": "Jagatsinghpur",
+      "category": "Coastal Odisha",
+      "district": "Jagatsinghpur",
+      "coordinates": { "x": 75.8, "y": 49.0 },
+      "summary": "Coastal delta district; home to Paradip Port — Odisha's only major seaport.",
+      "details": {
+        "headquarters": "Jagatsinghpur",
+        "region": "Coastal Odisha",
+        "area": "1,668 sq. km",
+        "rivers": ["Mahanadi (Birupa)", "Devi"],
+        "notable": "Paradip Port (Odisha's only major seaport); Mahanadi delta fertile plains; fishing industry."
+      }
+    },
+    {
+      "id": "bhadrak",
+      "name": "Bhadrak",
+      "category": "Coastal Odisha",
+      "district": "Bhadrak",
+      "coordinates": { "x": 78.5, "y": 34.6 },
+      "summary": "Northern coastal district at the Brahmani–Baitarani delta; Dhamra Port is a growing industrial hub.",
+      "details": {
+        "headquarters": "Bhadrak",
+        "region": "Coastal Odisha",
+        "area": "2,505 sq. km",
+        "rivers": ["Baitarani", "Brahmani (Dhamra distributary)", "Salandi"],
+        "notable": "Dhamra Port; Brahmani and Baitarani merge at Dhamra; Akhandalamani temple."
+      }
+    },
+    {
+      "id": "baleswar",
+      "name": "Baleswar",
+      "category": "Coastal Odisha",
+      "district": "Baleswar",
+      "coordinates": { "x": 83.3, "y": 25.8 },
+      "summary": "Northernmost coastal district bordering West Bengal; Chandipur is famous for missile testing.",
+      "details": {
+        "headquarters": "Balasore",
+        "region": "Coastal Odisha",
+        "area": "3,806 sq. km",
+        "rivers": ["Subarnarekha", "Budhabalanga"],
+        "notable": "Chandipur Integrated Test Range (missile testing); Panchalingeswar temple; borders West Bengal."
+      }
+    },
+    {
+      "id": "nuapada",
+      "name": "Nuapada",
+      "category": "Western Odisha",
+      "district": "Nuapada",
+      "coordinates": { "x": 16.9, "y": 44.5 },
+      "summary": "Westernmost district carved out of Bolangir; forested and drought-prone, bordering Chhattisgarh.",
+      "details": {
+        "headquarters": "Nuapada",
+        "region": "Western Odisha",
+        "area": "3,408 sq. km",
+        "rivers": ["Ong", "Tel (headwaters)"],
+        "notable": "Borders Chhattisgarh; Sunabeda Wildlife Sanctuary; largely forested plateau."
+      }
+    },
+    {
+      "id": "kandhamal",
+      "name": "Kandhamal",
+      "category": "Southern Odisha",
+      "district": "Kandhamal",
+      "coordinates": { "x": 35.8, "y": 51.4 },
+      "summary": "Hilly tribal district in the Eastern Ghats, homeland of the Kandha (Kondh) people and origin of several rivers.",
+      "details": {
+        "headquarters": "Phulbani",
+        "region": "Southern Odisha",
+        "area": "8,021 sq. km",
+        "rivers": ["Rushikulya", "Mahanadi (upper Nandira tributary)", "Salki"],
+        "notable": "Kondh tribal homeland; Daringibadi — 'Kashmir of Odisha'; Rushikulya river source."
+      }
+    },
+    {
+      "id": "nayagarh",
+      "name": "Nayagarh",
+      "category": "Central Odisha",
+      "district": "Nayagarh",
+      "coordinates": { "x": 53.3, "y": 48.5 },
+      "summary": "Central district through which the Mahanadi flows through the Satakosia gorge into the coastal plains.",
+      "details": {
+        "headquarters": "Nayagarh",
+        "region": "Central Odisha",
+        "area": "3,890 sq. km",
+        "rivers": ["Mahanadi", "Kusumi", "Daya"],
+        "notable": "Satakosia Gorge (Mahanadi gorge through Eastern Ghats); gharial and mugger crocodile habitat."
+      }
+    },
+    {
+      "id": "khordha",
+      "name": "Khordha",
+      "category": "Coastal Odisha",
+      "district": "Khordha",
+      "coordinates": { "x": 63.9, "y": 49.4 },
+      "summary": "Heart of Odisha; home to Bhubaneswar (state capital) and Lingaraj temple.",
+      "details": {
+        "headquarters": "Bhubaneswar",
+        "region": "Coastal Odisha",
+        "area": "2,813 sq. km",
+        "rivers": ["Daya", "Kuakhai", "Bhargavi"],
+        "notable": "Bhubaneswar — state capital and 'Temple City of India'; Lingaraj temple; Udayagiri and Khandagiri caves; AIIMS Bhubaneswar."
+      }
+    },
+    {
+      "id": "puri",
+      "name": "Puri",
+      "category": "Coastal Odisha",
+      "district": "Puri",
+      "coordinates": { "x": 69.4, "y": 54.6 },
+      "summary": "Sacred coastal district; home to the Jagannath Temple, Puri beach, and the Chilika Lake.",
+      "details": {
+        "headquarters": "Puri",
+        "region": "Coastal Odisha",
+        "area": "3,479 sq. km",
+        "rivers": ["Daya", "Bhargavi", "Chilika outflow"],
+        "notable": "Jagannath Temple (one of Char Dham); Rath Yatra; Chilika Lake (Asia's largest brackish water lagoon); Konark Sun Temple nearby."
+      }
+    },
+    {
+      "id": "gajapati",
+      "name": "Gajapati",
+      "category": "Southern Odisha",
+      "district": "Gajapati",
+      "coordinates": { "x": 63.5, "y": 77.1 },
+      "summary": "Southern hilly district bordering Andhra Pradesh; origin of the Bahuda and Vamsadhara rivers.",
+      "details": {
+        "headquarters": "Paralakhemundi",
+        "region": "Southern Odisha",
+        "area": "4,325 sq. km",
+        "rivers": ["Bahuda", "Vamsadhara", "Mahendratanaya"],
+        "notable": "Mahendragiri peak (second highest in Odisha); Sorada and Paralakhemundi historic towns; borders Andhra Pradesh."
+      }
+    },
+    {
+      "id": "ganjam",
+      "name": "Ganjam",
+      "category": "Southern Odisha",
+      "district": "Ganjam",
+      "coordinates": { "x": 50.3, "y": 61.2 },
+      "summary": "Largest coastal district of southern Odisha; Rushikulya beach is a major Olive Ridley nesting site.",
+      "details": {
+        "headquarters": "Chhatrapur",
+        "region": "Southern Odisha",
+        "area": "8,206 sq. km",
+        "rivers": ["Rushikulya", "Rishikulya", "Bahuda"],
+        "notable": "Gopalpur-on-Sea; Rushikulya Olive Ridley mass nesting; Berhampur silk sarees; Tara Tarini temple."
+      }
+    },
+    {
+      "id": "kalahandi",
+      "name": "Kalahandi",
+      "category": "Southern Odisha",
+      "district": "Kalahandi",
+      "coordinates": { "x": 24.1, "y": 57.2 },
+      "summary": "Mineral-rich southern district known for bauxite deposits and origin of the Nagavali and Indravati rivers.",
+      "details": {
+        "headquarters": "Bhawanipatna",
+        "region": "Southern Odisha",
+        "area": "7,920 sq. km",
+        "rivers": ["Indravati", "Nagavali", "Tel"],
+        "notable": "Karlapat Wildlife Sanctuary; NALCO Damanjodi aluminium plant nearby; Indravati and Nagavali river origins."
+      }
+    },
+    {
+      "id": "rayagada",
+      "name": "Rayagada",
+      "category": "Southern Odisha",
+      "district": "Rayagada",
+      "coordinates": { "x": 31.0, "y": 66.3 },
+      "summary": "Tribal district in the Eastern Ghats known for the Kondh people, Niyamgiri hills, and bauxite controversy.",
+      "details": {
+        "headquarters": "Rayagada",
+        "region": "Southern Odisha",
+        "area": "7,073 sq. km",
+        "rivers": ["Nagavali", "Vamsadhara", "Indravati (tributary)"],
+        "notable": "Niyamgiri Hills (sacred to Dongria Kondh); major bauxite reserves; Rayagada railway junction."
+      }
+    },
+    {
+      "id": "nabarangpur",
+      "name": "Nabarangpur",
+      "category": "Southern Odisha",
+      "district": "Nabarangpur",
+      "coordinates": { "x": 11.5, "y": 63.5 },
+      "summary": "Remote southwestern district bordering Chhattisgarh; the Indravati flows through its plains.",
+      "details": {
+        "headquarters": "Nabarangpur",
+        "region": "Southern Odisha",
+        "area": "5,291 sq. km",
+        "rivers": ["Indravati", "Tel (headwaters)"],
+        "notable": "Indravati river; borders Chhattisgarh and Andhra Pradesh; largely tribal Gond population."
+      }
+    },
+    {
+      "id": "koraput",
+      "name": "Koraput",
+      "category": "Southern Odisha",
+      "district": "Koraput",
+      "coordinates": { "x": 18.9, "y": 77.3 },
+      "summary": "Mountainous tribal district; home to NALCO's aluminium refinery and the Kolab reservoir.",
+      "details": {
+        "headquarters": "Koraput",
+        "region": "Southern Odisha",
+        "area": "8,807 sq. km",
+        "rivers": ["Kolab", "Indravati", "Machkund"],
+        "notable": "NALCO aluminium refinery at Damanjodi; Kolab dam and reservoir; Deomali (highest peak in Odisha)."
+      }
+    },
+    {
+      "id": "malkangiri",
+      "name": "Malkangiri",
+      "category": "Southern Odisha",
+      "district": "Malkangiri",
+      "coordinates": { "x": 7.0, "y": 88.8 },
+      "summary": "Odisha's southernmost and most remote district; the Machkund and Sabari rivers define its borders.",
+      "details": {
+        "headquarters": "Malkangiri",
+        "region": "Southern Odisha",
+        "area": "5,791 sq. km",
+        "rivers": ["Machkund (Sileru)", "Sabari (Kolab)"],
+        "notable": "Balimela reservoir; borders Andhra Pradesh and Chhattisgarh; Odisha's most remote district."
+      }
+    }
+  ]
+}
