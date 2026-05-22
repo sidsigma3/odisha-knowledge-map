@@ -18,59 +18,62 @@
       "name": "Red Soil",
       "category": "Plateau & Upland",
       "district": "Koraput",
-      "color": "#b91c1c",
-      "coordinates": { "x": 28, "y": 65 },
-      "radius": 70,
-      "summary": "Odisha's most widely distributed soil — coarse, porous, iron-rich and acidic. Covers the southern and south-western hill belt.",
+      "color": "#ef4444",
+      "coordinates": { "x": 22, "y": 65 },
+      "radius": 68,
+      "summary": "Odisha's most widely distributed soil — coarse, porous, iron-rich and acidic. Dominates the southern and south-western hill belt.",
       "details": {
         "localName": "Lal Mati / Rahar",
-        "coverage": "≈ 7.14 million hectares (largest of all soil groups)",
+        "coverage": "≈ 7.14 million hectares (largest soil group — ~45% of Odisha)",
         "districts": [
-          "Koraput",
-          "Rayagada",
-          "Nabarangpur",
-          "Keonjhar",
-          "Ganjam",
-          "Kalahandi",
-          "Mayurbhanj"
+          "Koraput", "Malkangiri", "Nabarangpur", "Kalahandi",
+          "Rayagada", "Gajapati", "Bolangir", "Nuapada",
+          "Bargarh", "Keonjhar", "Ganjam (south)"
         ],
-        "formation": "Decomposition of silicate and iron deposits of the upper Dharwar series during heavy rainfall.",
+        "formation": "Decomposition of silicate and iron deposits of the upper Dharwar series under heavy rainfall.",
         "texture": "Coarse-textured, highly porous; strongly to moderately acidic.",
         "fertility": "Rich in iron, potassium and phosphorus; deficient in nitrogen and organic matter.",
         "crops": ["Rice", "Pulses", "Groundnut", "Millets", "Mango", "Papaya"]
       }
     },
     {
-      "id": "mixed-red-yellow",
-      "name": "Mixed Red and Yellow Soil",
+      "id": "red-yellow-soil",
+      "name": "Red and Yellow Soil",
       "category": "Plateau & Upland",
-      "district": "Sambalpur",
+      "district": "Deogarh",
       "color": "#f59e0b",
-      "coordinates": { "x": 42, "y": 22 },
-      "radius": 60,
-      "summary": "Second-largest soil group. Coarse and acidic in uplands; finer and richer in lowlands.",
+      "coordinates": { "x": 52, "y": 20 },
+      "radius": 55,
+      "summary": "Second-largest soil group. Covers the northern plateau belt — coarse and acidic in uplands, finer and richer in lowlands.",
       "details": {
-        "coverage": "≈ 5 million hectares",
-        "districts": ["Sambalpur", "Bargarh", "Deogarh", "Sundargarh"],
-        "texture": "Upland: coarse, acidic. Lowland (on alluvial deposits): finer, richer in potassium.",
+        "coverage": "≈ 5 million hectares (second largest)",
+        "districts": [
+          "Sundargarh", "Jharsuguda", "Deogarh", "Keonjhar",
+          "Sambalpur (north)", "Angul (north)", "Mayurbhanj (south)"
+        ],
+        "formation": "Weathering of ancient Precambrian rocks (gneisses, granites) under tropical climate.",
+        "texture": "Upland: coarse, acidic. Lowland (alluvial deposits): finer, richer in potassium.",
         "fertility": "Lowland variants more productive due to alluvial enrichment.",
         "crops": ["Rice (upland and lowland)", "Millets", "Pulses", "Banana"],
-        "notes": "Dominant across western Odisha; the two variants (upland vs. lowland) behave quite differently."
+        "notes": "Dominant across the northern plateau belt of Odisha; upland vs. lowland variants behave quite differently."
       }
     },
     {
       "id": "laterite",
       "name": "Laterite Soil",
       "category": "Plateau & Upland",
-      "district": "Khordha",
-      "color": "#9a3412",
-      "coordinates": { "x": 60, "y": 43 },
-      "radius": 32,
-      "summary": "Deep red, iron-oxide-rich soil formed by intense leaching under tropical monsoon. Strongly acidic and low in fertility.",
+      "district": "Mayurbhanj",
+      "color": "#b45309",
+      "coordinates": { "x": 73, "y": 17 },
+      "radius": 28,
+      "summary": "Deep red, iron-oxide-rich soil formed by intense leaching under tropical monsoon. Strongly acidic and low in fertility. Dominant in Mayurbhanj.",
       "details": {
         "coverage": "≈ 0.70 million hectares",
-        "districts": ["Puri", "Khordha", "Cuttack", "Dhenkanal", "Sambalpur"],
-        "formation": "Intense leaching of basaltic rocks and gneisses under tropical monsoon conditions.",
+        "districts": [
+          "Mayurbhanj", "Keonjhar (east)", "Sundargarh (northwest patches)",
+          "Rayagada", "Koraput (patches)"
+        ],
+        "formation": "Intense leaching of basaltic rocks and gneisses under tropical monsoon — iron and aluminium oxides accumulate as softer minerals wash away.",
         "texture": "Deep red to reddish-brown; high iron oxide content; strongly acidic.",
         "fertility": "Low fertility, low organic matter.",
         "crops": ["Rice", "Pulses", "Groundnut", "Sesame", "Jackfruit", "Sapota"]
@@ -78,42 +81,38 @@
     },
     {
       "id": "deltaic-alluvial",
-      "name": "Deltaic Alluvial Soil",
+      "name": "Alluvial Soil",
       "category": "Coastal & Alluvial",
       "district": "Cuttack",
-      "color": "#65a30d",
-      "coordinates": { "x": 76, "y": 41 },
-      "radius": 36,
-      "summary": "The most fertile soil of Odisha — silt and clay deposited by east-flowing rivers. Excellent moisture retention.",
+      "color": "#22c55e",
+      "coordinates": { "x": 76, "y": 38 },
+      "radius": 32,
+      "summary": "Most fertile soil of Odisha — silt and clay deposited by the Mahanadi, Brahmani, Baitarani and Subarnarekha deltas. Excellent moisture retention.",
       "details": {
-        "coverage": "Coastal plains belt",
+        "coverage": "Entire eastern coastal plains belt",
         "districts": [
-          "Balasore",
-          "Bhadrak",
-          "Jajpur",
-          "Kendrapada",
-          "Jagatsinghpur",
-          "Cuttack",
-          "Puri"
+          "Baleswar", "Bhadrak", "Jajpur", "Kendrapara",
+          "Jagatsinghpur", "Cuttack", "Khordha", "Puri"
         ],
         "formation": "Silt and clay deposits laid down by east-flowing rivers (Mahanadi, Brahmani, Baitarani, Subarnarekha).",
-        "texture": "Varies from sandy loam (N. Balasore) to clayey (Mahanadi delta).",
-        "fertility": "Highly fertile; excellent moisture retention; slightly acidic to neutral.",
-        "crops": ["Rice", "Groundnut", "Mustard", "Vegetables"]
+        "texture": "Varies from sandy loam (north Baleswar) to heavy clay (Mahanadi delta). Slightly acidic to neutral.",
+        "fertility": "Highly fertile; excellent moisture retention; best agricultural soil in Odisha.",
+        "crops": ["Rice", "Groundnut", "Mustard", "Vegetables", "Jute"]
       }
     },
     {
       "id": "black-soil",
       "name": "Black Soil",
       "category": "Low-Lying",
-      "district": "Ganjam",
-      "color": "#1f2937",
-      "coordinates": { "x": 36, "y": 58 },
-      "radius": 34,
-      "summary": "Heavy clay soil that swells when wet and cracks deeply in summer. Neutral to alkaline, calcium-rich.",
+      "district": "Bolangir",
+      "color": "#365314",
+      "coordinates": { "x": 22, "y": 43 },
+      "radius": 22,
+      "summary": "Heavy clay soil that swells when wet and cracks deeply in summer. Found in pockets of western Odisha. Neutral to alkaline, calcium-rich.",
       "details": {
         "coverage": "≈ 0.96 million hectares",
-        "districts": ["Puri", "Ganjam", "Malkangiri", "Kalahandi", "Bargarh"],
+        "districts": ["Bolangir", "Nuapada", "Bargarh (pockets)", "Kalahandi (pockets)", "Malkangiri"],
+        "formation": "Formed from basaltic parent rock in low-lying areas with poor drainage.",
         "texture": "Heavy; >30% clay; swells when wet, cracks deeply in summer; neutral to alkaline.",
         "fertility": "Rich in calcium; deficient in phosphorus and zinc.",
         "crops": ["Cotton", "Rice", "Jowar", "Bajra", "Maize", "Mustard"]
@@ -123,35 +122,37 @@
       "id": "mixed-red-black",
       "name": "Mixed Red and Black Soil",
       "category": "Plateau & Upland",
-      "district": "Sambalpur",
-      "color": "#7c2d12",
-      "coordinates": { "x": 34, "y": 33 },
-      "radius": 20,
-      "summary": "Catenary mix — red soil in upper reaches, black soil in lower regions. Medium fertility, neutral pH.",
+      "district": "Bargarh",
+      "color": "#9f1239",
+      "coordinates": { "x": 33, "y": 32 },
+      "radius": 18,
+      "summary": "Catenary mix — red soil on upper slopes, black soil in lower depressions. Medium fertility, neutral pH.",
       "details": {
         "coverage": "≈ 0.16 million hectares",
-        "districts": ["Sambalpur", "Bargarh", "Sonepur", "Balangir"],
-        "texture": "Catenary formation: red soil upper, black soil lower; neutral pH.",
+        "districts": ["Bargarh", "Sambalpur", "Subarnapur", "Bolangir"],
+        "formation": "Catenary formation: red soil on upper slopes merges into black soil in valley bottoms.",
+        "texture": "Catenary: red soil upper, black soil lower; neutral pH.",
         "fertility": "Medium fertility.",
         "crops": ["Rice", "Sugarcane", "Maize", "Vegetables"]
       }
     },
     {
       "id": "coastal-saline",
-      "name": "Coastal Saline & Alluvial Soil",
+      "name": "Saline Soil",
       "category": "Coastal & Alluvial",
-      "district": "Bhadrak",
-      "color": "#fcd34d",
-      "coordinates": { "x": 82, "y": 33 },
-      "radius": 18,
-      "summary": "Narrow tidal-affected strip (5–25 km) along the coast. Highly alkaline due to salt-water incursion.",
+      "district": "Puri",
+      "color": "#7dd3fc",
+      "coordinates": { "x": 72, "y": 54 },
+      "radius": 14,
+      "summary": "Narrow tidal-affected coastal strip (5–25 km wide) around Chilika lake and the Puri–Kendrapara coastline. Highly alkaline due to salt-water incursion.",
       "details": {
         "coverage": "Narrow strip 5–25 km wide along the coast",
-        "districts": ["Balasore", "Bhadrak", "Jagatsinghpur"],
+        "districts": ["Puri", "Khordha (coast)", "Kendrapara", "Jagatsinghpur"],
+        "formation": "Tidal incursion and sea-water flooding deposits salts, raising soil alkalinity.",
         "texture": "Highly alkaline (pH > 8.5); high salt content.",
-        "fertility": "Poorly fertile due to salinity.",
+        "fertility": "Poorly fertile due to salinity; needs reclamation.",
         "crops": ["Salt-tolerant rice varieties", "Mustard", "Barley", "Coconut"],
-        "notes": "Tidal incursion drives the alkalinity; cultivation needs salt-tolerant crop varieties."
+        "notes": "Concentrated around Chilika Lake and the Puri coast. Cultivation requires salt-tolerant varieties and drainage management."
       }
     },
     {
@@ -159,17 +160,18 @@
       "name": "Brown Forest Soil",
       "category": "Forest",
       "district": "Kandhamal",
-      "color": "#78350f",
-      "coordinates": { "x": 39, "y": 56 },
+      "color": "#e7e5e4",
+      "coordinates": { "x": 40, "y": 54 },
       "radius": 22,
-      "summary": "Light, acidic, organic-rich soil of the forested hill belt. Threatened by Podu (shifting cultivation).",
+      "summary": "Light, acidic, organic-rich soil of the forested Eastern Ghats hill belt. Found mainly in Kandhamal and Ganjam. Threatened by Podu (shifting cultivation).",
       "details": {
         "coverage": "≈ 0.17 million hectares",
-        "districts": ["Kandhamal", "Rayagada", "Ganjam"],
+        "districts": ["Kandhamal", "Ganjam (north)", "Nayagarh (parts)"],
+        "formation": "Developed under dense forest cover in the Eastern Ghats; high organic content from leaf litter.",
         "texture": "Light-textured; acidic.",
-        "fertility": "Rich in organic matter and nitrogen.",
+        "fertility": "Rich in organic matter and nitrogen; low in phosphorus.",
         "crops": ["Maize", "Wheat", "Mustard", "Citrus fruits"],
-        "notes": "Frequently subjected to Shifting Cultivation (Podu), which causes degradation and loss of topsoil."
+        "notes": "Frequently subjected to Podu (shifting cultivation) by tribal communities, which causes soil degradation and topsoil loss."
       }
     }
   ]
